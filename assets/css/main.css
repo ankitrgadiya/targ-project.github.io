@@ -1,0 +1,51 @@
+body {
+  font-family: "Times New Roman";
+}
+
+header{
+  height: 20vh;
+}
+header img.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  margin: 10px;
+}
+header h1 {
+  text-align: center;
+  margin-top: 10vh;
+}
+header div.navigation {
+  margin-top: 10vh;
+}
+header div.navigation ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+header div.navigation ul li a {
+  color: #202020;
+}
+
+div.container.body {
+  margin-top: 10vh;
+}
+div.container.body h2 {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+div.container.body p {
+  font-size: 1.3em;
+  margin-top: 5vh;
+}
+div.container.body ul {
+  margin-top: 5vh;
+}
+div.container.body ul li {
+  font-size: 1.3em;
+}
+
+footer {
+  margin-top: 10vh;
+}

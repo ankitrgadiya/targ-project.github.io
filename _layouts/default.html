@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TARG {% if page.title %} - {{page.title}}{% endif %}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header>
+      <a href="/">
+        <img src="/assets/images/logo.png" alt="logo" class="logo">
+      </a>
+
+      <h1>Targ Project</h1>
+
+      <div class="navigation text-center">
+        <ul class="list-inline">
+          <li><a href="/">Home</a></li>
+          <li><a href="/archive">Archive</a></li>
+          <li><a href="/contributors">Contributors</a></li>
+        </ul>
+      </div>
+    </header>
+
+    {{ content }}
+
+    <footer class="container">
+      <hr>
+      <div class="row">
+        <div class="col-md-4 text-left">
+          Last Modified: {{ site.time | date: '%d %B %Y'}}
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://github.com/targ-project">Git Repositories</a>
+        </div>
+        <div class="col-md-4 text-right">
+          Hosted on <a href="https://pages.github.com">Github Pages</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

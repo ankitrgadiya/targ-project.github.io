@@ -1,0 +1,5 @@
+- name: Sample1
+  url: /sample1
+
+- name: Sample2
+  url: /sample2

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Archive
+---
+
+<div class="container body">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h2>Archive</h2>
+      <ul>
+        {% for doc in site.data.docs %}
+        <li>
+          <a href="{{doc.url}}">{{doc.name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
