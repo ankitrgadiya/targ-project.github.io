@@ -1,0 +1,8 @@
+To Do
+=====
+
+* Generate contributor list using Github API
+* Generate Archive using Github API, as we're going to use separate repo for
+  separate docs so, using Github API for organization we can generate a list of
+  all repos.
+* Write a contributors guide.
