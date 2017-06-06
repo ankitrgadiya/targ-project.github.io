@@ -49,3 +49,6 @@ div.container.body ul li {
 footer {
   margin-top: 10vh;
 }
+footer div {
+  margin-bottom: 10px;
+}
